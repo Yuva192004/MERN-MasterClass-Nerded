@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .container {
     display: flex;
@@ -99,3 +100,106 @@
     margin-top: 20px; 
     color: #555;
 }
+=======
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: stretch; 
+    height: 80vh;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+
+.left-side, .right-side {
+    flex: 1; 
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: radial-gradient(50% 50% at 50% 50%, #FBBF24 0%, #F59E0B 100%);
+    border-radius: 20px;
+}
+
+.left-side img {
+    width: 100%;
+    height: auto; 
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: radial-gradient(50% 50% at 50% 50%, #F8FAFC 0%, #F5F8FB 45.49%, #F1F5F9 100%);
+    border-left: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.right-side h1 {
+    margin-top: 0;
+    font-size: 24px; 
+}
+
+.subheading {
+    font-size: 16px; 
+    color: #555; 
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px; 
+}
+
+.input-fields {
+    width: 100%;
+    padding: 12px; 
+    margin-bottom: 20px;
+    font-size: 16px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+}
+
+.forgot-password {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    color: #999;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.input-fields::placeholder {
+    color: #ccc;
+}
+
+.primary-button {
+    width:100%;
+    padding: 12px 24px; 
+    background-color: #FBBF24; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+    border-radius: 20px;
+}
+
+.primary-button:hover {
+    background-color: #F59E0B; 
+}
+
+.Anotheroption {
+    font-size: 14px;
+    margin-top: 20px; 
+    color: #555;
+}
+>>>>>>> 2cc4e54b2745e21012eb64fa5358aa44b1a053e4
